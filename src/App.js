@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import Box from "./Box";
 import "./App.css";
-
+import BoxList from "./BoxList";
 function App() {
   return (
     <div className="App">
-      <Box height={10} width={20} color="purple" />
+      <BoxList />
     </div>
   );
 }
